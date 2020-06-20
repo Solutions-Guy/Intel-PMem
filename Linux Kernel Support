@@ -1,6 +1,6 @@
-* The Linux NVDIMM/persistent memory drivers were enabled by default starting with Linux kernel 4.2.
-* Intel recommends kernel version 4.19 or later, but RHEL 7.7 with Linux Kernel 3.10.0 can support PMEM.
-* List of parameters need to enable PMEM in the kernel configuration file, usually found under "/boot/config-'uname -r'": (Compile or custom kernel
+// The Linux NVDIMM/persistent memory drivers were enabled by default starting with Linux kernel 4.2.
+// Intel recommends kernel version 4.19 or later, but RHEL 7.7 with Linux Kernel 3.10.0 can support PMEM.
+// List of parameters need to enable PMEM in the kernel configuration file, usually found under "/boot/config-'uname -r'": (Compile or custom kernel
 
 CONFIG_ZONE_DEVICE=y
 CONFIG_TRANSPARENT_HUGEPAGE=y
