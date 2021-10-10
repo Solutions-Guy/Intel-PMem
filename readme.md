@@ -1,4 +1,4 @@
-# Enable PMEM in AppDirect mode in RHEL
+# Enable Intel PMem Series 100 in AppDirect mode in RHEL
 
 Prerequisites:
 * RHEL 7.7 installed on primary SSD/NVMe drive
